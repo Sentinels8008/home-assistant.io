@@ -28,7 +28,7 @@ title:
   type: string
   default: none
 card_size:
-  required: false
+  required: true
   type: integer
   default: none
   description: The algorithm for placing cards aesthetically in Lovelace may have problems with the Markdown card if it contains templates. You can use this value to help it estimate the height of the card in units of 50 pixels (approximately 3 lines of text in default size). (e.g., `4`)
